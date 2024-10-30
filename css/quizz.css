@@ -1,0 +1,223 @@
+body {
+     font-family:Arial;font-size:16px;
+     } 
+details summary h2 {
+     display:inline;
+     }
+#lesboutons div {
+     padding-top:8px;
+     font-size:14px;
+     text-align:center;
+     }
+#lesboutons a {
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    }
+.bt_quizz {
+    display:inline-block;
+    margin:0px 0px 10px 0px;
+    color:#FFFFFF;
+    background-color:#16A085;
+    border-radius:5px;
+    padding:8px;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:bold;
+    z-index: 63000;
+    visibility: visible !important;
+    }
+.bt_quizz:hover {
+    color:yellow;
+    background-color:#360;
+    }
+.datehist {
+    padding:5px 15px 0px 5px;
+    }
+.q_joker {
+    line-height:1;
+    visibility:hidden;
+    display:inline-block;
+    min-width:100px;
+    border-width:0px 2px 0px 2px;
+    border-radius:5px;
+    border-color:cyan;
+    border-style:solid;
+    padding:0px 5px 0px 5px;
+    }
+.q_l_joker  {
+    display:inline-block;
+    visibility:visible;
+    position:absolute;
+    min-width:50px;
+    text-align:center;
+    border:1px solid black;
+    border-radius:50%;
+    cursor:pointer;
+    padding:0px 25px 0px 25px;
+    }
+.q_l_joker:hover {
+    font-size:120%;
+    }
+.q_deja {
+    padding-right:2px;
+    background-color:#66ff66;
+    }
+.qb_box {
+    color:black;
+    line-height:1;
+    margin:5px auto 5px auto;
+    position:relative;
+    width:320px;
+    max-width:100%;
+    border:1px solid black;
+    background-color:#ffffff;
+    clear:both;
+    box-sizing:content-box;
+    font-family:Arial;
+    font-size:16px;
+    white-space:normal;
+    }
+.qb_aide {
+    position:absolute;
+    border:3px dotted red;
+    top:-30px;
+    text-align:center;
+    width:90%;
+    background-color:white;
+    border-radius:20px;
+    padding:0px 10px 0px 10px;
+    }
+.qb_box div {
+    padding:5px;
+    text-align:center;
+    }
+.qb_box .q_l_joker {
+    position:static;
+    }
+.qb_score {
+    font-weight:bold;
+    }
+.qb_lib {
+    display:inline-block;
+    max-width:200px;
+    }
+.q_input {
+    background-color:yellow;
+    }
+#lasection #larticle mark {visibility:hidden;}    
+#asidequizz select {
+    background-color:bisque;
+    border:2px solid black;
+    font-size:16px;
+    }
+.qpp_rem {
+    display:inline-block;
+    margin:3px;
+    } 
+.qcm_choix {
+    display:inline-block;
+    background-color:yellow;
+    margin:3px 5px 0px 5px;
+    border:1px solid black;
+    border-radius:50%;
+    width:15px;
+    box-sizing:content-box;
+    cursor:pointer;
+    }
+.qcm_choix_gest {
+    display:inline-block;
+    background-color:yellow;
+    margin:3px 5px 0px 5px;
+    max-width:180px;
+    border:1px solid black;
+    border-radius:5px;
+    box-sizing:content-box;
+    cursor:pointer;
+    }
+    
+.qcm_choix:hover {
+    font-weight:bold;
+    }
+.qb_menu {
+    position:absolute;
+    width:200px;
+    max-width:calc(100% - 60px) ;
+    background-color:#ffffff;
+    border:1px solid black;
+    left:60px;
+    z-index:20000;
+    }
+.qb_menu .qb_lignemenu {
+    cursor:pointer;
+    text-align:left;
+    }
+.q_rep_nanim_ok,
+.q_rep_nanim_nok {
+    border:1px solid black;
+    border-radius:5px;
+    padding:0px 5px 0px 5px;
+    display:inline-block;
+    cursor:pointer;min-width:
+    80px;
+    }
+.qp_pastel span {
+    border:1px solid black;
+    border-radius:5px;
+    color:#000000;
+    padding:0px 5px 0px 5px;
+    }
+.qp_soutenu span {
+    border:1px solid black;
+    border-radius:5px;
+    color:white;
+    padding:0px 5px 0px 5px;
+    }
+.q_p_perso {
+    border-bottom:1px solid black;
+    padding-bottom:6px;
+    }
+.q_p_perso select {
+    line-height:1.1;
+    }
+#qz_navig {
+    clear:both;
+    width:max-content;
+    margin:50px auto 5px auto;
+    border:1px solid black;
+    border-radius:5px;
+    padding:0px 5px 0px 5px;
+    max-width:95vw;
+    }
+.qz_elnavig {
+    display:inline-block;
+    margin-left:20px;
+    cursor:pointer;
+    }
+
+@keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+      font-size:150%;
+      }
+  to {
+      margin-left: 0%;
+      width: 100%;
+      font-size:100%;
+      }
+  }
+@media screen and (min-width: 100px) and (max-width: 542px)  {
+  .q_input {
+      font-size:16px;
+      }
+  }  
+
+@media screen and (min-width: 543px) and (max-width: 1016px)  {
+     #lesboutons {
+         padding-right:15px !important;
+         }
+     #lesboutons br {
+         display:none;
+         }
+  }  
